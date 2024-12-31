@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  font-family:Roboto Condensed ; 
+}
+
+h1{
+font-size: 64px;
+font-weight: bold;
+font-family:Roboto Condensed ;
+}
+p{
+  font-size: 16px;
+font-weight: normal;
+}
+
+h2{
+  font-size: 38px;
+  font-weight: bold;
+  font-family:Roboto Condensed ;
+  text-transform: uppercase;
+  text-align: center;
+  }
+
+  h6{
+    font-size: 22px;
+    font-weight: bold;
+    font-family:Roboto Condensed ;
+    text-align: center;
+    }
+
+  h4{
+    font-size: 20px;
+    font-weight: bold;
+    font-family:Roboto Condensed ;
+    text-transform: uppercase;
+    }
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 32px; /* Adjusted for mobile */
+      }
+      p {
+        font-size: 16px; /* Adjusted for mobile */
+      }
+      h2 {
+        font-size: 24px; /* Adjusted for mobile */
+      }
+      h6 {
+        font-size: 18px; /* Adjusted for mobile */
+      }
+      h4 {
+        font-size: 16px; /* Adjusted for mobile */
+      }
+    }
+
+
+
+
+
+
+    .btn{
+      background-color:#FFD2A4 ;
+      color: black;
+      padding: 4px 8px;
+      border-radius: 8px;
+    }
+    .btn2{
+      background-color:#FFD2A4 ;
+      color: black;
+      padding: 8px 16px;
+      border-radius: 8px;
+    }
+
+    .btn:hover, .btn2:hover{
+     background-color: #F2C79B; 
+    }
+
+    .hero{
+background-image: url('https://res.cloudinary.com/dibwnfwk9/image/upload/v1735277313/woman-in-orange-coat-with-black-and-brown-scarf-5418305_evyca4.jpg');
+object-fit: cover;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+height: 100%;
+width: 100%;
+    }
