@@ -15,6 +15,10 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Worship Together",
   description:"Worship Together is a platform connecting believers for worship, prayer, and community growth.",
+  icons: {
+    icon: "https://res.cloudinary.com/dibwnfwk9/image/upload/v1735280970/th_txvnrs.jpg", 
+    apple: "https://res.cloudinary.com/dibwnfwk9/image/upload/v1735280970/th_txvnrs.jpg", 
+},
 };
 
 export default function RootLayout({ children }) {
