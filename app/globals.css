@@ -86,3 +86,13 @@ background-repeat: no-repeat;
 height: 100%;
 width: 100%;
     }
+
+    .house{
+      background-image: url('https://res.cloudinary.com/dibwnfwk9/image/upload/v1735276161/Background_1_trznmr.png');
+object-fit: cover;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+height: 100%;
+width: 100%;
+    }

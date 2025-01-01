@@ -5,13 +5,13 @@ export default function Sermons(){
 
     return(
 
-        <div className="w-[90%] mx-auto">
+        <div className="md:w-[90%] w-[95%] mx-auto  ">
 <h6>upcoming sermons</h6>
 <h2>join us and become part of something great</h2>
 
-<div className="flex  mt-8">
-<div className=" bg-[#FFF5EB] p-8 flex gap-6 ">
-<div>
+<div   className="flex flex-col md:flex-row  mt-8">
+<div data-aos="fade-right" className=" bg-[#FFF5EB] p-8 flex gap-6 ">
+<div >
 <h6 className="text-left text-[#DC9853]">upcoming event</h6>
 <h4>WATCH AND LISTEN TO OUR SERMONS</h4>
 <p><b className="font-semibold"> Watch and listen to our sermons</b> for inspiring messages that uplift your spirit and guide your faith.</p>
@@ -29,7 +29,7 @@ export default function Sermons(){
 <span className="text-xl"><b className="font-bold">20</b> <br/> July</span>
 
 </div>
-<img src='https://res.cloudinary.com/dibwnfwk9/image/upload/v1735277232/a-man-and-woman-wearing-angel-costumes-8513040_ceb8ko.png ' className="w-[60%]"/> 
+<img data-aos="zoom-in" src='https://res.cloudinary.com/dibwnfwk9/image/upload/v1735277232/a-man-and-woman-wearing-angel-costumes-8513040_ceb8ko.png ' className="md:w-[60%] w-[100%]"/> 
 
 </div>
 <div className="flex justify-end mt-4">
