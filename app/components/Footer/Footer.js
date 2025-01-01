@@ -40,7 +40,7 @@ export default function Footer(){
     Subscribe to get Latest Updates and News    
     </h4>
     <form className="flex items-center border rounded-lg w-fit shadow-2xl w-[90%]">
-<input type=" text" placeholder="Yourmail@gmail.com" className="bg-transparent py-2 px-2 " />
+<input type=" text" placeholder="Yourmail@gmail.com" className="bg-transparent py-2 px-2 w-[80%]" />
 <button className="bg-[#FFD2A4] py-2 px-4 text-black  rounded-r-lg"> SUBSCRIBE</button>
 
     </form>
